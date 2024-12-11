@@ -1,0 +1,361 @@
+Selectors in CSS & CSS3:
+===============
+CS & CSS3 supports Following types of selectors
+
+->Using Id selector
+->Using Class selector
+->Using Tag based selector
+->Using Group by selector
+->Using universal selector
+
+
+->Using Id selector(#)
+===============
+index1.html:
+=======
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML & CSS</title>
+    <link rel="stylesheet" href="demo1.css">
+ 
+</head>
+<body>
+    <h2 id="abc">Ihub_IT_Services</h2>
+  
+ 
+
+</body>
+</html>
+
+
+index1.css:
+=======
+#abc 
+{
+    background-color: black;
+    color:white;
+    text-align:center;
+    border-radius:15px;
+    border:3px solid red;
+    font-family:monospace;
+    font-size:18px;
+    text-transform:uppercase;
+}
+
+->Using Class selector(.):
+================
+
+index1.html:
+========
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML & CSS</title>
+    <link rel="stylesheet" href="demo1.css">
+ 
+</head>
+<body>
+    
+    <h2 class="ABC">Ihub_App_Store</h2>
+  
+ 
+
+</body>
+</html>
+
+
+index1.css:
+=======
+.ABC 
+{
+    background-color: brown;
+    color:white;
+    text-align:center;
+    border-radius:15px;
+    font-family:monospace;
+    font-size:18px;
+    text-transform:uppercase;
+    border:5px solid black;
+}
+
+
+->Using Tag based selector:
+===================
+
+index1.html:
+========
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML & CSS</title>
+    <link rel="stylesheet" href="demo1.css">
+ 
+</head>
+<body>
+    
+    <h2>Welcome to IHUB_IT_SOLUTIONS</h2>
+  
+ 
+
+</body>
+</html>
+
+
+index1.css:
+========
+h2
+{
+    background-color: blue;
+    color:white;
+    text-align:center;
+    border-radius:15px;
+    font-family:monospace;
+    font-size:18px;
+    text-transform:uppercase;
+    border:5px solid black;
+}
+
+
+->Using group by selector(,):
+=================
+
+index1.html:
+========
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML & CSS</title>
+    <link rel="stylesheet" href="demo1.css">
+ 
+</head>
+<body>
+    <h1>AngularJS developer</h1>
+    <hr>
+    <h2>Angular Engineer</h2>
+    <hr>
+    <h3>JavaScript Developer</h3>
+    <hr>
+    <h4>ReactJS developer</h4>
+    <hr>
+    <h5>FrontEnd Developer</h5>
+    <hr>
+    <h6>Developer</h6>
+
+</body>
+</html>
+
+
+index1.css:
+=======
+h2,h3,h4 
+{
+    background-color: crimson;
+    color:white;
+    border-radius:15px;
+    border:5px solid green;
+    text-align:center;
+    font-family:monospace;
+    font-size:18px;
+    text-transform:uppercase;
+}
+
+->Using universal selector(*):
+===================
+
+index1.html:
+========
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML & CSS</title>
+    <link rel="stylesheet" href="demo1.css">
+ 
+</head>
+<body>
+    <h1>Heading_One</h1>
+    <h2>Headin_Two</h2>
+    <h3>Heading_Three</h3>
+    <h4>Heading_Four</h4>
+   
+
+</body>
+</html>
+
+
+index1.css:
+=======
+* 
+{
+    border:5px solid black;
+}
+
+Working margin_property:
+=================
+CSS & CSS3 supports margin property which is used for page level operations.
+
+index1.html:
+=======
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML & CSS</title>
+    <link rel="stylesheet" href="demo1.css">
+ 
+</head>
+<body>
+ <div class="abc">A_Block</div>
+
+</body>
+</html>
+
+index1.css:
+=======
+.abc
+{
+    width:300px;
+    height:300px;
+    background-color: brown;
+    color:white;
+    border-radius:15px;
+    font-family:monospace;
+    font-size:26px;
+    text-align:center;
+    border:5px solid black;
+    margin:50px;
+
+}
+
+
+index1.html:
+========
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML & CSS</title>
+    <link rel="stylesheet" href="demo1.css">
+ 
+</head>
+<body>
+ <div class="abc">A_Block</div>
+
+</body>
+</html>
+
+index1.css:
+=======
+.abc
+{
+    width:300px;
+    height:300px;
+    background-color: brown;
+    color:white;
+    border-radius:15px;
+    font-family:monospace;
+    font-size:26px;
+    text-align:center;
+    border:5px solid black;
+    margin:20px 25px 23px 28px;
+
+}
+
+
+index1.html:
+========
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML & CSS</title>
+    <link rel="stylesheet" href="demo1.css">
+ 
+</head>
+<body>
+ <div class="abc">A_Block</div>
+
+</body>
+</html>
+
+index1.css:
+=======
+.abc
+{
+    width:300px;
+    height:300px;
+    background-color: brown;
+    color:white;
+    border-radius:15px;
+    font-family:monospace;
+    font-size:26px;
+    text-align:center;
+    border:5px solid black;
+    margin-left:200px;
+    margin-top:50px;
+  
+
+}
+
+Padding_Property:
+============
+CSS & CSS3 supports  Padding_Property.The main objective of Padding_Property is meant
+for block level operations.
+
+
+index1.html:
+========
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML & CSS</title>
+    <link rel="stylesheet" href="demo1.css">
+ 
+</head>
+<body>
+ <div class="abc">
+    <label for="">Username</label>
+    <input type="text" placeholder="username" required autocomplete="off">
+ </div>
+
+</body>
+</html>
+
+
+index1.css:
+======
+.abc
+{
+    width:500px;
+    height:300px;
+    background-color:black;
+    border:5px solid black;
+    border-radius:15px;
+    color:white;
+    padding-left:100px;
+    border:3px solid red;
+    padding-top:100px;
+    margin-left:100px;
+    
+
+}
+
+
+
+
+

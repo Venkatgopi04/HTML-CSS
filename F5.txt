@@ -1,0 +1,214 @@
+Working with forms in HTML & HTML5:
+========================
+HTML & HTML5 supports forms.It is a paired tag.The main objective of forms tags
+is collect the end_user data/information and sends to the server.form has following
+form components
+
+->Inline form
+->Horizontal form
+->Vertical form
+
+<form method="get/post></form>
+
+form compoments
+============
+
+input type="text":
+===========
+
+Ex1:
+===
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML & HTML5</title>
+</head>
+<body>
+  <hr>
+  <center>
+  <h1><tt>HTML & HTML5 SESSIONS</tt></h1>
+  </center>
+  <hr>
+  <fieldset>
+    <legend>Form_Components</legend>
+    <form action="" method="get">
+      <center>
+        <label for="">First_Name</label>
+      <input type="text" placeholder="First_Name" title="First_Name_Field"> 
+      </center>
+
+    </form>
+  </fieldset>
+  
+  
+</body>
+</html>
+
+
+
+Username ---->Rahul_12345---->[A-Z]{1}[a-z]*[_]{1}[0-9]{5}
+Password ---->RA_12345 ---->[A-Z]{2}[_]{1}[0-9]{5}
+
+
+
+Ex2:
+===
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML & HTML5</title>
+</head>
+<body>
+  <hr>
+  <center>
+  <h1><tt>IHUB_IT_SERVICES LOGIN</tt></h1>
+  </center>
+  <hr>
+  <fieldset>
+    <legend>Inline_Form</legend>
+    <center>
+      <form action="" method="post">
+        <label for="">Username</label>
+        <input type="text" placeholder="username" title="Ex:Rahul_12345" required pattern="[A-Z]{1}[a-z]*[_]{1}[0-9]{5}">
+        <label for="">Password</label>
+        <input type="password" placeholder="password" title="EX:RA_12345" required pattern="[A-Z]{2}[_]{1}[0-9]{5}">
+        <input type="submit" value="LOGIN">
+      </form>
+    </center>
+    
+  </fieldset>
+  
+  
+</body>
+</html>
+
+Ex2:
+===
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML & HTML5</title>
+</head>
+<body>
+  <hr>
+  <center>
+  <h1><tt>IHUB_IT_SERVICES LOGIN</tt></h1>
+  </center>
+  <hr>
+  <fieldset>
+    <legend>Horizontal_Form</legend>
+    <center>
+      <form action="" method="post">
+        <label for="">Username</label>
+        <input type="text" placeholder="username" title="Ex:Rahul_12345" required pattern="[A-Z]{1}[a-z]*[_]{1}[0-9]{5}">
+        <br>
+        <br>
+        <label for="">Password</label>
+        <input type="password" placeholder="password" title="EX:RA_12345" required pattern="[A-Z]{2}[_]{1}[0-9]{5}">
+        <br>
+        <br>
+        <input type="submit" value="LOGIN">
+      </form>
+    </center>
+    
+  </fieldset>
+  
+  
+</body>
+</html>
+
+
+Ex3:
+===
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML & HTML5</title>
+</head>
+<body>
+  <hr>
+  <center>
+  <h1><tt>IHUB_IT_SERVICES LOGIN</tt></h1>
+  </center>
+  <hr>
+  <fieldset>
+    <legend>Vertical_Form</legend>
+    <center>
+      <form action="" method="post">
+        <label for="">Username</label>
+        <br>
+        <br>
+        <input type="text" placeholder="username" title="Ex:Rahul_12345" required pattern="[A-Z]{1}[a-z]*[_]{1}[0-9]{5}">
+        <br>
+        <br>
+        <label for="">Password</label>
+        <br>
+        <br>
+        <input type="password" placeholder="password" title="EX:RA_12345" required pattern="[A-Z]{2}[_]{1}[0-9]{5}">
+        <br>
+        <br>
+        <input type="submit" value="LOGIN">
+      </form>
+    </center>
+    
+  </fieldset>
+  
+  
+</body>
+</html>
+
+Working with radio button:
+=================
+HTML & HTML5 supports radio button.The main objective of radio button is to select 
+one option at time.
+
+<input type="radio">
+
+method="get"
+
+
+Ex1:
+===
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML & HTML5</title>
+</head>
+<body>
+  <hr>
+  <center>
+  <h1><tt>IHUB_IT_SERVICES ...</tt></h1>
+  </center>
+  <hr>
+  <fieldset>
+    <legend>Gender_Validation</legend>
+    <center>
+      <form action="" method="get">
+        <label for="">Gender</label>
+        <input type="radio" name="gender" value="male"><label for="">MALE</label>
+        <input type="radio" name="gender" value="female"><label for="">FEMALE</label>
+        <input type="submit" value="SUBMIT">
+
+      
+
+      </form>
+    </center>
+  
+  </fieldset>
+  
+  
+</body>
+</html>
+
+
+

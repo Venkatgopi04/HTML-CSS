@@ -1,0 +1,496 @@
+Ex1:
+===
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML & HTML5</title>
+</head>
+<body>
+  <hr>
+  <center>
+    <h1><tt>Welcome to Full Stack Python Developer</tt></h1>
+  </center>
+  <hr>
+  <hr>
+  <center>
+    <a href="http://www.linkedin.com">Linked_In</a>|
+    <a href="http://www.indeed.com">Indeed</a>|
+    <a href="http://www.naukri.com">Naukri</a>|
+    <a href="http://www.monster.com">Monster</a>|
+  </center>
+  <hr>
+  
+</body>
+</html>
+
+
+index1.html:
+========
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML & HTML5</title>
+</head>
+<body>
+  <hr>
+  <center>
+    <h1><tt>Welcome to Full Stack Python Developer</tt></h1>
+  </center>
+  <hr>
+  <hr>
+  <center>
+    <a href="home.html">HOME</a>|
+    <a href="about.html">ABOUT</a>|
+    <a href="service.html">SERVICES</a>|
+    <a href="client.html">CLIENTS</a>|
+    <a href="contact.html">CONTACT</a>|
+  </center>
+  <hr>
+  
+</body>
+</html>
+
+
+home.html:
+=======
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home_Page</title>
+</head>
+<body>
+    <hr>
+    <center>
+    <h1><tt>Home_Page under development</tt></h1>
+    </center>
+    <hr>
+    
+</body>
+</html>
+
+about.html:
+=======
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About_Page</title>
+</head>
+<body>
+    <hr>
+    <center>
+    <h1><tt>About_Page under development</tt></h1>
+    </center>
+    <hr>
+    
+</body>
+</html>
+
+service.html:
+========
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Service_Page</title>
+</head>
+<body>
+    <hr>
+    <center>
+    <h1><tt>Service_Page under development</tt></h1>
+    </center>
+    <hr>
+    
+</body>
+</html>
+
+client.html:
+=======
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client_Page</title>
+</head>
+<body>
+    <hr>
+    <center>
+    <h1><tt>Client_Page under development</tt></h1>
+    </center>
+    <hr>
+    
+</body>
+</html>
+
+contact.html:
+========
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact_Page</title>
+</head>
+<body>
+    <hr>
+    <center>
+    <h1><tt>Contact_Page under development</tt></h1>
+    </center>
+    <hr>
+    
+</body>
+</html>
+
+
+Working on image:
+============
+HTML & HTML5 supports image tag which is used to represent image content on
+the web page.
+
+
+Ex1:
+===
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML & HTML5</title>
+</head>
+<body>
+  <hr>
+  <center>
+  <h1><tt>UI or FrontEnd Developments</tt></h1>
+  </center>
+  <hr>
+  <br>
+  <hr>
+  <img src="image_1.png" alt="In_valid_path" height="200" width="200">
+  <img src="image_1.png" alt="In_valid_path" height="200" width="200">
+  <img src="image_1.png" alt="In_valid_path" height="200" width="200">
+  <img src="image_1.png" alt="In_valid_path" height="200" width="200">
+  
+  <hr>
+  <br>
+  <hr>
+  <img src="image_1.png" alt="In_valid_path" height="200" width="200">
+  <img src="image_1.png" alt="In_valid_path" height="200" width="200">
+  <img src="image_1.png" alt="In_valid_path" height="200" width="200">
+  <img src="image_1.png" alt="In_valid_path" height="200" width="200">
+  
+  <hr>
+  <br>
+  <hr>
+  <img src="image_1.png" alt="In_valid_path" height="200" width="200">
+  <img src="image_1.png" alt="In_valid_path" height="200" width="200">
+  <img src="image_1.png" alt="In_valid_path" height="200" width="200">
+  <img src="image_1.png" alt="In_valid_path" height="200" width="200">
+  
+  <hr>
+  <br>
+  <hr>
+  <img src="image_1.png" alt="In_valid_path" height="200" width="200">
+  <img src="image_1.png" alt="In_valid_path" height="200" width="200">
+  <img src="image_1.png" alt="In_valid_path" height="200" width="200">
+  <img src="image_1.png" alt="In_valid_path" height="200" width="200">
+  
+  <hr>
+  <br>
+  <hr>
+  <img src="image_1.png" alt="In_valid_path" height="200" width="200">
+  <img src="image_1.png" alt="In_valid_path" height="200" width="200">
+  <img src="image_1.png" alt="In_valid_path" height="200" width="200">
+  <img src="image_1.png" alt="In_valid_path" height="200" width="200">
+  
+  <hr>
+
+  
+</body>
+</html>
+
+
+Ex2:
+===
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML & HTML5</title>
+</head>
+<body>
+  <hr>
+  <center>
+  <h1><tt>UI or FrontEnd Developments</tt></h1>
+  </center>
+  <hr>
+  <br>
+  <hr>
+  <center>
+    <a href="http://www.linkedin.com"><img src="i2.png" alt="in_valid_path" height="50" width="50"></a>&nbsp;&nbsp;&nbsp;
+    <a href="http://www.indeed.com"><img src="i3.png" alt="in_valid_path" height="50" width="50"></a>&nbsp;&nbsp;&nbsp;
+    <a href="http://www.monster.com"><img src="i4.png" alt="in_valid_path" height="50" width="50"></a>&nbsp;&nbsp;&nbsp;
+    <a href="http://www.naukri.com"><img src="i5.png" alt="in_valid_path" height="50" width="50"></a>
+  </center>
+  <hr>
+
+
+  
+</body>
+</html>
+
+Working with table tag:
+===============
+HTML & HTML5 supports table tag.table tags are paired tag.The main 
+objective of table tag is represent the data/information in tabular_format
+or row and column format.
+
+<table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td></td>
+</tr>
+</table>
+
+
+Ex1:
+===
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML & HTML5</title>
+</head>
+<body>
+  <hr>
+  <center>
+  <h1><tt>Product_Information</tt></h1>
+  </center>
+  <hr>
+  <br>
+  <hr>
+  <center>
+  <table border="7">
+    <tr>
+      <th>Pid</th>
+      <th>Pname</th>
+      <th>Price</th>
+      <th>Company</th>
+    </tr>
+    <tr>
+      <td>1001</td>
+      <td>Mobil_1</td>
+      <td>21000</td>
+      <td>Samsung</td>
+    </tr>
+    <tr>
+      <td>1002</td>
+      <td>Mobil_2</td>
+      <td>22000</td>
+      <td>Samsung</td>
+    </tr>
+    <tr>
+      <td>1003</td>
+      <td>Mobil_3</td>
+      <td>23000</td>
+      <td>Samsung</td>
+    </tr>
+    <tr>
+      <td>1004</td>
+      <td>Mobil_4</td>
+      <td>24000</td>
+      <td>Samsung</td>
+    </tr>
+    <tr>
+      <td>1005</td>
+      <td>Mobil_5</td>
+      <td>25000</td>
+      <td>Samsung</td>
+    </tr>
+  </table>
+  </center>
+  <hr>
+
+  
+</body>
+</html>
+
+
+Working on List Tag:
+=============
+HTML & HTML5 supports List tags.List tags are paired tag which means combination of
+an opening and closing tag.The main objective of List tag is reprent the content in list form
+
+
+->orderlist ----><ol><li></li></ol>
+->unorderlist ----><ul><li></li></ul>
+
+Ex1:
+===
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML & HTML5</title>
+</head>
+<body>
+  <hr>
+  <center>
+  <h1><tt>Welcome to Full Stack Python with AI</tt></h1>
+  </center>
+  <hr>
+  <hr>
+  <ol>
+    <li>Core Python</li>
+    <li>Advance Python</li>
+    <li>DSA with Algorithm</li>
+    <li>AI with ML & DP on LLM</li>
+    <li>Django with Django_restframework</li>
+    <li>Angular/React with Flask</li>
+    <li>Project Implementation with end to end coding</li>
+  </ol>
+  <hr>
+  
+  
+
+  
+</body>
+</html>
+
+
+Ex2:
+==
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML & HTML5</title>
+</head>
+<body>
+  <hr>
+  <center>
+  <h1><tt>Welcome to Full Stack Java Development</tt></h1>
+  </center>
+  <hr>
+  <hr>
+  <ul>
+    <li>Core Java</li>
+    <li>Advance Java</li>
+    <li>FrontEnd with Spring Boot</li>
+    <li>Spring security</li>
+    <li>End to End Project Implementation</li>
+    
+   
+  </ul>
+  <hr>
+  
+  
+
+  
+</body>
+</html>
+
+
+Ex3:
+===
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML & HTML5</title>
+</head>
+<body>
+  <hr>
+  <center>
+  <h1><tt>Welcome to Quality Thought & IHUB_IT_SERVICES</tt></h1>
+  </center>
+  <hr>
+  <hr>
+  <ol>
+    <li>Full Stack Python with AI & AWS
+      <ul>
+        <li>Core Python</li>
+        <li>Advance Python</li>
+        <li>DSA with algorithm</li>
+        <li>AI WITH LLM</li>
+        <li>JavaScript/React/Angular</li>
+        <li>Django & Flask</li>
+        <li>Complete End to End Project Implementation</li>
+        <li>How implement Python on AWS </li>
+
+      </ul>
+    </li>
+    <li>Full Stack Java with AWS
+      <ul>
+        <li>Core Java</li>
+        <li>Advance Java</li>
+        <li>Spring boot</li>
+        <li>Spring Security</li>
+        <li>JavaScript/React</li>
+        <li>How to implement Java on AWS</li>
+        <li>End to End project coding</li>
+      </ul>
+    </li>
+    
+  </ol>
+
+  <hr>
+  
+  
+
+  
+</body>
+</html>
+
+
+Ex4:
+===
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML & HTML5</title>
+</head>
+<body>
+  <hr>
+  <center>
+  <h1><tt>Welcome to Quality Thought & IHUB_IT_SERVICES</tt></h1>
+  </center>
+  <hr>
+  <fieldset>
+    <legend>JOIP</legend>
+  
+      <ol>
+        <li>Full Stack Python with AI & AWS
+          <ul>
+            <li>Core Python</li>
+            <li>AI with LLM</li>
+            <li>Django/Flask</li>
+            <li>React/Angular/AWS</li>
+          </ul>
+        </li>
+      </ol>
+   
+  </fieldset>
+  
+  
+
+  
+</body>
+</html>

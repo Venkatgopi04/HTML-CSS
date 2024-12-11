@@ -1,0 +1,48 @@
+Full Stack Python Development:
+=====================
+It is a Combination of FrontEnd Technologies and Backend Technologies with Database.
+
+FrontEnd Technologies/UI  Technologies/Web Technologies
+
+
+Positions for FrontEnd Technologies:
+=======================
+->FrontEnd Developer/UI developer
+->Angular Developer
+->ReactJS Developer
+->JavaScript Developer ---->70%
+->JavaScript with NodeJS Developer
+
+
+
+Q1)What is Web?
+Q2)What is Web application & it's components?
+        ->FrontEnd
+        ->Backend
+
+FrontEnd/UI
+
+
+FrontEnd Technologies:
+===============
+HTML & HTML5
+CSS & CSS3 Tailwand Framework
+*****JavaScript******
+Bootstrap
+AngularJS
+Angular
+ReactJS
+
+->Static web applications
+->Responsive web applications
+->Dynamic Web applications
+->Responsive Dynamic web application
+->Single Page applications
+->Responsive Single Page Application
+
+
+Q3)What is Web development process?
+
+
+
+

@@ -1,0 +1,311 @@
+display:inline
+========
+
+index1.html:
+========
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="demo1.css">
+    <title>CSS & SS3</title>
+</head>
+<body>
+
+    <hr>
+   <ol>
+    <li><a href="">Home</a></li>
+    <li><a href="">About</a></li>
+    <li><a href="">Services</a></li>
+    <li><a href="">Contact</a></li>
+   </ol>
+    <hr>
+
+
+
+
+
+  
+    
+</body>
+</html>
+
+
+demo1.css:
+=======
+ol 
+{
+    list-style: none;
+}
+ol>li>a 
+{
+    text-decoration: none;
+    color:white;
+}
+ol>li 
+{
+    width:300px;
+    height:45px;
+    background-color: brown;
+    color:white;
+    text-align:center;
+    border-radius:15px;
+    display:inline;
+
+}
+
+
+display:inline-block:
+==============
+
+index1.html:
+========
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="demo1.css">
+    <title>CSS & SS3</title>
+</head>
+<body>
+
+    <hr>
+   <ol>
+    <li><a href="">Home</a></li>
+    <li><a href="">About</a></li>
+    <li><a href="">Services</a></li>
+    <li><a href="">Contact</a></li>
+   </ol>
+    <hr>
+
+
+  
+    
+</body>
+</html>
+
+demo1.css:
+======
+ol 
+{
+    list-style: none;
+    margin-left:290px;
+}
+ol>li>a 
+{
+    text-decoration: none;
+    color:white;
+}
+ol>li 
+{
+    width:150px;
+    height:33px;
+    background-color: brown;
+    color:white;
+    text-align:center;
+    border-radius:15px;
+    display:inline-block;
+    border:3px solid black;
+    padding-top:10px;
+    font-family:monospace;
+    font-size:20px;
+    text-transform:uppercase;
+    cursor:pointer;
+
+
+}
+
+display:block:
+=========
+
+index1.html:
+========
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="demo1.css">
+    <title>CSS & SS3</title>
+</head>
+<body>
+    <hr>
+    <span>Home</span>
+    <span>About</span>
+    <span>Services</span>
+    <span>Contact</span>
+    <hr>
+
+
+  
+    
+</body>
+</html>
+
+
+demo1.css:
+=======
+span 
+{
+   width:170px;
+   height:32px;
+   background-color: black;
+   color:white;
+   text-align:center;
+   border-radius:15px;
+   border:3px solid red;
+   font-family:monospace;
+   font-size:18px;
+   text-transform:uppercase;
+   display:block;
+   padding-top:10px;
+   margin:7px;
+   cursor:pointer;
+   margin-left:800px;
+}
+
+display:flex:
+========
+index1.html:
+========
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="demo1.css">
+    <title>CSS & SS3</title>
+</head>
+<body>
+    <hr>
+    <div class="ABC">
+        <div>A_Block</div>
+        <div>B_Black</div>
+        <div>C_Block</div>
+        <div>D_Block</div>
+    </div>
+    <hr>
+
+
+
+  
+    
+</body>
+</html>
+
+demo1.css:
+=======
+.ABC 
+{
+    background-color: black;
+    display:flex;
+    flex-direction:row;
+}
+.ABC>div 
+{
+    background-color: red;
+    color:white;
+    margin:10px;
+    padding:5px;
+    font-family:monospace;
+    font-size:16px;
+    text-align:center;
+}
+
+
+index1.html:
+========
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="demo1.css">
+    <title>CSS & SS3</title>
+</head>
+<body>
+    <hr>
+    <div class="ABC">
+        <div>A_Block</div>
+        <div>B_Black</div>
+        <div>C_Block</div>
+        <div>D_Block</div>
+    </div>
+    <hr>
+
+
+
+  
+    
+</body>
+</html>
+
+demo1.css:
+=======
+.ABC 
+{
+    background-color: black;
+    display:flex;
+    flex-direction:row-reverse;
+}
+.ABC>div 
+{
+    background-color: red;
+    color:white;
+    margin:10px;
+    padding:5px;
+    font-family:monospace;
+    font-size:16px;
+    text-align:center;
+}
+
+
+index1.html:
+========
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="demo1.css">
+    <title>CSS & SS3</title>
+</head>
+<body>
+    <hr>
+    <div class="ABC">
+        <div>A_Block</div>
+        <div>B_Black</div>
+        <div>C_Block</div>
+        <div>D_Block</div>
+    </div>
+    <hr>
+
+
+
+  
+    
+</body>
+</html>
+
+
+index1.css:
+=======
+.ABC 
+{
+    background-color: black;
+    display:flex;
+    flex-direction:column-reverse;
+}
+.ABC>div 
+{
+    background-color: red;
+    color:white;
+    margin:10px;
+    padding:5px;
+    font-family:monospace;
+    font-size:16px;
+    text-align:center;
+}

@@ -1,0 +1,34 @@
+FrontEnd Technologies:
+===============
+HTML & HTML5
+CSS & CSS3 
+***JavaScript****
+Bootstrap 
+AngularJS
+Angular
+ReactJS
+
+->Static web applictions
+->Responsive Static web applications
+->Dynamic web applicaitons
+->Responsive Dynamic web applicaitons
+->Single Page Application
+->Responsive Single Page Application
+
+
+
+Q3)What is Web development process?
+=========================
+
+
+HTML & HTML5:
+=========
+->HTML stands for Hyper text markup language.The main objective of HTML & 
+HTML5 is represent the static content on the web page.
+
+->HTML  & HTML5 are tag based technologies not programming 
+ 
+                                         ->pair tags
+                                         ->Unpaired tags
+                                         
+

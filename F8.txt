@@ -1,0 +1,294 @@
+svg tag:
+=====
+HTML & HTML5 supports svg tag which scable vector graphics.It is paired tag.The
+main objective of svg tag is provide the graphics on the wen page.
+
+
+Ex1:
+===
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML & HTML5</title>
+</head>
+<body>
+    <fieldset>
+        <legend>SVG TAG</legend>
+        <hr>
+        <svg height="500" width="500">
+            <circle cx="200" cy="200" r="80" stroke="green" stroke-width="10" fill="red">
+
+        </svg>
+        <hr>
+    </fieldset>
+    
+</body>
+</html>
+
+
+Ex2:
+===
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML & HTML5</title>
+</head>
+<body>
+    <fieldset>
+        <legend>SVG TAG</legend>
+        <hr>
+        <svg height="500" width="500">
+            <rect width="250" height="250" stroke="black" stroke-width="10" fill="green" >
+
+        </svg>
+        <hr>
+    </fieldset>
+    
+</body>
+</html>
+
+CSS & CSS3:
+========
+CSS stands Cascading style sheet.The main objective of CSS & CSS3 is provide the better look
+and fill by applying the CSS & CSS3 properties.
+
+
+CSS & CSS3 with their properties can be return in three ways
+======================================
+->Using Inline CSS
+->Using Internal CSS
+->Using External CSS
+
+
+CSS & CSS3 properties:
+==============
+
+text
+----
+    text-align
+    font-family
+    text-decoration
+    text-transform
+    font-size
+    text-shadow
+
+width
+        pixel/%
+
+height
+      pixel/% 
+
+margin
+    
+       margin:50px
+       margin:12px 15px 10px 18px
+       margin-top:
+       margin-bottom:
+       margin-left:
+       margin-right:
+      
+Note:
+====
+     margin property can be given negative index values
+
+
+padding
+        padding:70px 
+        padding:30px 40px 45px 55px
+        padding-top:
+        padding-bottom:
+        padding-left:
+        padding-right:
+
+float:
+      left,right,center
+
+color
+background-color
+background-size:cover
+background:url()
+
+
+display
+      display:none 
+      display:inline 
+      display:inline-block
+      display:block
+      display:flex
+
+visbility:hidden 
+
+
+position:
+      static
+      absolute
+      relative
+      fixed
+
+
+cursor:pointer
+
+
+->Using Inline CSS:
+==============
+We can write the CSS & CSS3 Properties using Inline CSS which means if we 
+are using CSS & CSS3 properties inside an opening tag followed by style tag then
+it is said to Inline CSS.
+
+
+Ex1:
+==
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML & HTML5</title>
+</head>
+<body>
+    <h1 style="background-color: brown;color:white;text-align:center;border-radius:15px;">Inline CSS</h1>
+ 
+</body>
+</html>
+
+
+->Using Internal CSS:
+=============
+We can write the  CSS & CSS3 properties using Internal CSS which means if we are using
+CSS & CSS3 properties inisde the head tag followed by style pair tags.It is also known as
+Page level CSS.
+
+
+Ex1:
+==
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML & CSS</title>
+    <style>
+        h1 
+        {
+            background-color: black;
+            color:white;
+            text-align:center;
+            border-radius:15px;
+            border:3px solid red;
+            font-family:monospace;
+            font-size:40px;
+            text-transform:uppercase;
+        }
+    </style>
+</head>
+<body>
+    <h1>Internal CSS</h1>
+ 
+ 
+</body>
+</html>
+
+->Using External CSS:
+==============
+We can write the CSS & CSS3 using external CSS which means if we are using
+CSS & CSS3 properties inside seprate CSS file with .css extension then it i said
+be External CSS.
+
+
+index1.html:
+========
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML & CSS</title>
+    <link rel="stylesheet" href="demo1.css">
+ 
+</head>
+<body>
+   <h1>External CSS</h1>
+ 
+ 
+</body>
+</html>
+
+demo1.css:
+=======
+h1 
+{
+    background-color: crimson;
+    color:white;
+    text-align:center;
+    font-family:monospace;
+    font-size:45px;
+    text-transform:uppercase;
+    border-radius:15px;
+    border:3px solid black;
+
+}
+
+
+selectors in CSS & CSS3:
+==============
+CSS & CSS3 supports Following types of selectors
+
+->Using Id selector ---->#
+->Using Class selector ---->.
+->Using tag based selector 
+->Using groupby selector 
+->Using universal selector --->*
+
+
+->Using Id selector ---->#:
+==================
+
+index1.html:
+========
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML & CSS</title>
+    <link rel="stylesheet" href="demo1.css">
+ 
+</head>
+<body>
+    <h1 id="A">Ihub_IT_Services</h1>
+ 
+ 
+ 
+</body>
+</html>
+
+demo1.css:
+=======
+#A 
+{
+    width:100%;
+    height:35px;
+    background-color: blue;
+    color:white;
+    text-align:center;
+    border:3px solid red;
+    border-radius:15px;
+    font-family: monospace;
+    font-size:20px; 
+    text-transform:uppercase;
+    
+
+}
+
+
+
+
+  
+      
+
+        
+

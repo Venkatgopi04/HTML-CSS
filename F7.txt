@@ -1,0 +1,188 @@
+div tag:
+=====
+HTML & HTML5 supports div tags.The main objective of div tag is to create division
+on the web page or blocks or section.It is used to develop pagelayout for any web 
+application
+
+<div></div>
+
+
+Ex1:
+===
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML & HTML5</title>
+</head>
+<body>
+    <div>Header Component</div>
+    <hr>
+    <div>Left_Side component</div>
+    <hr>
+    <div>Right_Side Component</div>
+    <hr>
+    <div>Footer Component</div>
+    
+</body>
+</html>
+
+
+HTML5 semantic tag:
+=============
+HTML5 supports sematic tags.The main objective of HTML5 semantic tags is create
+the page layours as per the application reqn.Following are the HTML5 semantic tags.
+
+
+
+<header></header>
+<footer></footer>
+<section></section>
+<nav></nav>
+<figure></figure>
+<figcaption></figcaption>
+<audio></audion>
+<video></video>
+<svg></svg>
+
+
+Ex1:
+===
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML & HTML5</title>
+</head>
+<body>
+   <header>
+    <h1><tt>Header Component</tt></h1>
+   </header>
+   <hr>
+   <section>
+    <h1><tt>Left_Side Component</tt></h1>
+   </section>
+   <hr>
+   <section>
+    <h1><tt>Right_Side Component</tt></h1>
+   </section>
+   <hr>
+   <footer>
+    <h1><tt>Footer Component</tt></h1>
+   </footer>
+    
+</body>
+</html>
+
+
+Ex2:
+===
+<header>
+    <h1><tt>Header_Section</tt></h1>
+</header>
+<hr>
+<footer>
+    <h1><tt>Footer_Section</tt></h1>
+</footer>
+
+
+Ex3:
+===
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML & HTML5</title>
+</head>
+<body>
+    <hr>
+    <h1><tt>Apply for FrontEnd Developer</tt></h1>
+    <hr>
+    <br>
+    <fieldset>
+        <legend>nav_tag</legend>
+      <nav>
+        <ul>
+            <li><a href="http://www.linkedin.com">Linked_In</a></li>
+            <li><a href="http://www.indeed.com">Indeed</a></li>
+            <li><a href="http://www.monster.com">Monster</a></li>
+            <li><a href="http://www.naukri.com">Naukri</a></li>
+        </ul>
+      </nav>
+    </fieldset>
+    
+</body>
+</html>
+
+
+Ex4:
+===
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML & HTML5</title>
+</head>
+<body>
+    <hr>
+    <center>
+    <h1><tt>Welcome to Mobile Phones</tt></h1>
+    </center>
+    <hr>
+    <br>
+    <fieldset>
+        <legend>Mobiles</legend>
+        <figure>
+            <img src="mobile_1.png" alt="In_valid_path" height="150" width="150">
+            <figcaption>Samsung Mobile Device</figcaption>
+            <hr>
+            <img src="mobile_1.png" alt="In_valid_path" height="150" width="150">
+            <figcaption>Samsung Mobile Device</figcaption>
+            <hr>
+            <img src="mobile_1.png" alt="In_valid_path" height="150" width="150">
+            <figcaption>Samsung Mobile Device</figcaption>
+            <hr>
+            <img src="mobile_1.png" alt="In_valid_path" height="150" width="150">
+            <figcaption>Samsung Mobile Device</figcaption>
+        </figure>
+    </fieldset>
+   
+
+    
+</body>
+</html>
+
+Ex5:
+===
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML & HTML5</title>
+</head>
+<body>
+    <hr>
+    <center>
+    <h1><tt>Welcome to audio content on web page</tt></h1>
+    </center>
+    <hr>
+    <br>
+    <fieldset>
+        <legend>audio_file</legend>
+        <hr>
+        <audio  controls>
+            <source src="C:\Users\Admin\Desktop\UI_34_35_36\a1.mp3" type="audio/mp3" height="100" width="100">
+        </audio>
+        <hr>
+       
+    </fieldset>
+   
+
+    
+</body>
+</html>

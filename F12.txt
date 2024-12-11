@@ -1,0 +1,183 @@
+index1.html:
+=========
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="demo1.css">
+    <title>CSS & SS3</title>
+</head>
+<body>
+    <hr>
+    <div class="abc">IHUB_IT_SERVICES</div>
+    <hr>
+   <center>
+    <div class="ABC">Employee_Login</div>
+    </center>
+    <hr>
+    <br>
+    <hr>
+    <ul>
+        <li><a href="">Home</a></li>
+        <li><a href="">About</a></li>
+        <li><a href="">Services</a></li>
+        <li><a href="">Contact</a></li>
+        <li><a href="">Login</a></li>
+       
+    </ul>
+    <input type="email" placeholder="search here ..." required>
+    <hr>
+  <center>
+    <div class="xyz">
+        <br>
+      
+            <form action="">
+                <label for="">Username</label>
+                <input type="text" placeholder="Username" required autocomplete="off">
+                <br>
+                <br>
+                <label for="">Password</label>
+                <input type="password" placeholder="password" required autocomplete="off">
+                <br>
+                <br>
+                <input type="submit" value="LOGIN">
+                <input type="reset" value="RESET">
+            </form>
+       
+        
+    </div>
+    </center>
+    <hr>
+
+    
+  
+
+
+
+
+
+  
+    
+</body>
+</html>
+
+
+index1.css:
+======
+.abc 
+{
+    background-color: black;
+    color:white;
+    width:100%;
+    height:45px;
+    border-radius:15px;
+    border:3px solid red;
+    text-align:center;
+    font-family:monospace;
+    font-size:22px;
+    padding-top:14px;
+    
+}
+.ABC 
+{
+    background-color:red;
+    color:white;
+    text-align:center;
+    border:3px solid black;
+    border-radius:15px;
+    font-family:monospace;
+    font-size:22px;
+    padding-top:14px;
+    width:500px;
+    height:37px;
+
+}
+.xyz 
+{
+    width:500px;
+    height:300px;
+    background-color: cyan;
+    border-radius:15px;
+    border:3px solid red;
+}
+label 
+{
+    font-family: monospace;
+    font-size:12px;
+    text-transform:uppercase;
+}
+input[type="text"],input[type="password"]
+{
+    width:270px;
+    height:30px;
+    border-radius:15px;
+    text-align:center;
+    font-family:monospace;
+    font-size:15px;
+    text-transform:uppercase;
+    border:2px solid black;
+
+}
+input[type="submit"]
+{
+    width:120px;
+    height:33px;
+    text-align:center;
+    border-radius:15px;
+    border:3px solid black;
+    background-color:red;
+    color:white;
+    text-transform:uppercase;
+    cursor:pointer;
+
+}
+input[type="reset"]
+{
+    width:120px;
+    height:33px;
+    text-align:center;
+    border-radius:15px;
+    border:3px solid black;
+    background-color:red;
+    color:white;
+    text-transform:uppercase;
+    cursor:pointer;
+
+}
+body 
+{
+    background-image: url("imag2.png");
+    background-size: cover;
+}
+ul 
+{
+    list-style:none;
+}
+ul>li>a
+{
+    text-decoration: none;
+    color:white;
+}
+ul>li 
+{
+    display:inline-block;
+    background-color: crimson;
+    color:white;
+    width:120px;
+    height:30px;
+    border-radius:15px;
+    padding-top:10px;
+    font-family:monospace;
+    text-transform:uppercase;
+    text-align:center
+  
+}
+input[type="email"] 
+{
+    float:right;
+    width:250px;
+    height:30px;
+    border-radius:15px;
+    margin-top:-60px;
+}

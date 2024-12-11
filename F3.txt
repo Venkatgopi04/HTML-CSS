@@ -1,0 +1,235 @@
+HTML & HTML5:
+==========
+->HTML stands for Hypertext markup language.The main objective of HTML &
+HTML5 is to represent static content on web page.
+
+->HTML & HTML5 are tag based technologies.In HTML & HTML5 we do have two
+   types of tags
+ 
+                            ->paired tags
+                                               paired tag can be represent as It is combination of
+                                   an opening and closing tag
+                                          <html></html>
+                            ->unpaired tags
+                                              un paired tag can be represent as which is having self 
+                                              closed tags
+
+->Each HTML & HTML5 file is saved with .html or .htm extension.
+
+
+
+Ex1:
+===
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IHUB_IT_SERVICES</title>
+</head>
+<body>
+    
+</body>
+</html>
+
+
+Ex2:
+===
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IHUB_IT_SERVICES</title>
+    <link  href="C:\Users\Admin\Desktop\UI_F_development\i1.png" rel="icon" sizes="16*16">
+</head>
+<body>
+    
+</body>
+</html>
+
+
+heading tags:
+=========
+HTML & HTML5 supports heading tags.The main objective of heading tags to provide 
+the different types of heading tags on the web page.
+
+<h1></h1>
+----
+<h6></h6>
+
+Ex1:
+===
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IHUB_IT_SERVICES</title>
+    <link  href="C:\Users\Admin\Desktop\F_1\i1.png" rel="icon" sizes="16*16">
+</head>
+<body>
+    <center>
+    <h1>Heading One</h1>
+    <hr>
+    <h2>Heading Two</h2>
+    <hr>
+    <h3>Heading Three</h3>
+    <hr>
+    <h4>Heading Four</h4>
+    <hr>
+    <h5>Heading Five</h5>
+    <hr>
+    <h6>Heading Six</h6>
+    <hr>
+    </center>
+</body>
+</html>
+
+
+Ex2:
+===
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IHUB_IT_SERVICES</title>
+    <link  href="C:\Users\Admin\Desktop\F_1\i1.png" rel="icon" sizes="16*16">
+</head>
+<body>
+
+    <p>Hi guys how r u hope you are doing great</p>
+    <br>
+    <p>This is Heading for every new student</p>
+</body>
+</html>
+
+
+Working with marquee tag:
+=================
+HTML & HTML5 supports marquee tag.It is paired tag which means combination of
+an opening and closing tag.The main objective  of marquee tag is provide the 
+simple animation.
+
+
+Ex1:
+===
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IHUB_IT_SERVICES</title>
+    <link  href="C:\Users\Admin\Desktop\F_1\i1.png" rel="icon" sizes="16*16">
+</head>
+<body>
+    <marquee behavior="" direction="">
+    <h1>Heading One</h1>
+    </marquee>
+    <hr>
+    <marquee behavior="" direction="up">
+    <h2>Heading Two</h2>
+    </marquee>
+    <hr>
+    <marquee behavior="" direction="down">
+    <h3>Heading Three</h3>
+    </marquee>
+
+    
+</body>
+</html>
+
+
+Formatted tags in HTML & HTML5:
+=====================
+HTML & HTML5 supports Formatted tags.The main objective of formatted
+tag is for better look and fil.Following are the Formatted tags in HTML & HTML5
+
+
+-><mark></mark>
+-><i></i>
+-><tt></tt>
+-><sub></sub>
+-><sup></sup>
+-><ins></ins>
+-><b></b>
+-><u></u>
+
+
+Ex1:
+===
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IHUB_IT_SERVICES</title>
+    <link  href="C:\Users\Admin\Desktop\F_1\i1.png" rel="icon" sizes="16*16">
+</head>
+<body>
+    <h1>This is <mark>Heading One</mark></h1>
+    <hr>
+    <h2>This is <sub>Heading</sub> Two</h2>
+    <hr>
+    <h3><tt>This is Heading Three</tt></h3>
+    <hr>
+    <h4>This is <sup>Heading Four</sup></h4>
+    <hr>
+    <h5><i><u>This is Heading Five</u></i></h5>
+    <hr>
+    <h6>This is Heading <ins>This is another message</ins></h6>
+
+
+    
+</body>
+</html>
+
+Working with anchor tag:
+================
+HTML & HTML5 supports anchor tag.It is paired tag.The main objective of 
+anchor tag is provide the links between the pages.It is used to navigate from 
+our page to live web applicaitons as well.
+
+
+
+Ex1:
+===
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IHUB_IT_SERVICES</title>
+    <link  href="C:\Users\Admin\Desktop\F_1\i1.png" rel="icon" sizes="16*16">
+</head>
+<body>
+    <hr>
+    <center>
+        <h1><tt>Welcome to FrontEnd Developer</tt></h1>
+    </center>
+    <hr>
+    <br>
+    <hr>
+    <center>
+        <a href="http://www.linkedin.com">Linked_In</a>|
+        <a href="http://www.indeed.com">Indeed</a>|
+        <a href="http://www.monster.com">Monter</a>|
+        <a href="http://www.naukri.com">Naukri</a>|
+        <a href="http://www.dice.com">Dice</a>|
+    </center>
+    <hr>
+  
+
+
+    
+</body>
+</html>
+
+
+
+
+
+
+
+

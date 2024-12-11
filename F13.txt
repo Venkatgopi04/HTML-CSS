@@ -1,0 +1,445 @@
+position in CSS & CSS3:
+==============
+position:static
+positiion:absolute 
+position:relative
+position:fixed
+
+
+index1.html:
+=======
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS & CSS3</title>
+    <link rel="stylesheet" href="demo1.css">
+</head>
+<body>
+    <div class="abc">
+        <div class="ABC">Block_A</div>
+    </div>
+    
+</body>
+</html>
+
+index1.css:
+=======
+.abc 
+{
+    width:900px;
+    height:600px;
+    border:4px solid black;
+    border-radius:15px;
+}
+.ABC 
+{
+    width:300px;
+    height:300px;
+    background-color: black;
+    color:white;
+    border:4px solid red;
+    border-radius:15px;
+    text-align:center;
+    font-family:monospace;
+    font-size:24px;
+    text-transform: uppercase;
+    position:static;
+    left:200px;
+    top:100px;
+}
+
+
+index1.html:
+========
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS & CSS3</title>
+    <link rel="stylesheet" href="demo1.css">
+</head>
+<body>
+    <div class="abc">
+        <div class="ABC">Block_A</div>
+    </div>
+    
+</body>
+</html>
+
+
+.abc 
+{
+    width:900px;
+    height:600px;
+    border:4px solid black;
+    border-radius:15px;
+}
+.ABC 
+{
+    width:300px;
+    height:300px;
+    background-color: black;
+    color:white;
+    border:4px solid red;
+    border-radius:15px;
+    text-align:center;
+    font-family:monospace;
+    font-size:24px;
+    text-transform: uppercase;
+    position:absolute;
+    left:200px;
+    top:120px;
+
+    
+}
+
+
+index1.html:
+=======
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS & CSS3</title>
+    <link rel="stylesheet" href="demo1.css">
+</head>
+<body>
+    <div class="abc">
+        <div class="ABC">Block_A</div>
+    </div>
+    
+</body>
+</html>
+
+index1.css:
+======
+.abc 
+{
+    width:900px;
+    height:600px;
+    border:4px solid black;
+    border-radius:15px;
+}
+.ABC 
+{
+    width:300px;
+    height:300px;
+    background-color: black;
+    color:white;
+    border:4px solid red;
+    border-radius:15px;
+    text-align:center;
+    font-family:monospace;
+    font-size:24px;
+    text-transform: uppercase;
+    position:relative;
+    left:400px;
+    top:200px;
+    
+
+    
+}
+
+
+position:fixed
+=========
+index1.html:
+========
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS & CSS3</title>
+    <link rel="stylesheet" href="demo1.css">
+</head>
+<body>
+   
+    <div class="A">Header_Component</div>
+    <hr>
+    <div class="B">Block_B</div>
+    <hr>
+    <div class="C">Block_C</div>
+    <hr>
+    <div class="D">Block_D</div>
+    <hr>
+    <div class="E">Block_E</div>
+    <hr>
+    <div class="B">Block_B</div>
+    <hr>
+    <div class="C">Block_C</div>
+    <hr>
+    <div class="D">Block_D</div>
+    <hr>
+    <div class="E">Block_E</div>
+    <hr>
+    <div class="B">Block_B</div>
+    <hr>
+    <div class="C">Block_C</div>
+    <hr>
+    <div class="D">Block_D</div>
+    <hr>
+    <div class="E">Block_E</div>
+    <hr>
+    <div class="B">Block_B</div>
+    <hr>
+    <div class="C">Block_C</div>
+    <hr>
+    <div class="D">Block_D</div>
+    <hr>
+    <div class="E">Block_E</div>
+    <hr>
+    <div class="B">Block_B</div>
+    <hr>
+    <div class="C">Block_C</div>
+    <hr>
+    <div class="D">Block_D</div>
+    <hr>
+    <div class="E">Block_E</div>
+    <hr>
+    <div class="B">Block_B</div>
+    <hr>
+    <div class="C">Block_C</div>
+    <hr>
+    <div class="D">Block_D</div>
+    <hr>
+    <div class="E">Block_E</div>
+    <hr>
+    <div class="B">Block_B</div>
+    <hr>
+    <div class="C">Block_C</div>
+    <hr>
+    <div class="D">Block_D</div>
+    <hr>
+    <div class="E">Block_E</div>
+    <hr>
+    <div class="B">Block_B</div>
+    <hr>
+    <div class="C">Block_C</div>
+    <hr>
+    <div class="D">Block_D</div>
+    <hr>
+    <div class="E">Block_E</div>
+    <hr>
+    <div class="B">Block_B</div>
+    <hr>
+    <div class="C">Block_C</div>
+    <hr>
+    <div class="D">Block_D</div>
+    <hr>
+    <div class="E">Block_E</div>
+    <hr>
+    <div class="B">Block_B</div>
+    <hr>
+    <div class="C">Block_C</div>
+    <hr>
+    <div class="D">Block_D</div>
+    <hr>
+    <div class="E">Block_E</div>
+    <hr>
+    <div class="B">Block_B</div>
+    <hr>
+    <div class="C">Block_C</div>
+    <hr>
+    <div class="D">Block_D</div>
+    <hr>
+    <div class="E">Block_E</div>
+    <hr>
+    
+</body>
+</html>
+
+demo1.css:
+=======
+.A 
+{
+    width:100%;
+    height:45px;
+    background-color: black;
+    color:white;
+    text-align:center;
+    border-radius:15px;
+    border:3px solid red;
+    font-family:monospace;
+    font-size:24px;
+    text-transform: uppercase;
+    padding-top:15px;
+    position:fixed;
+}
+.B 
+{
+    width:250px;
+    height:200px;
+    background-color:green;
+    color:white;
+    text-align:center;
+    border-radius:15px;
+    border:3px solid red;
+    font-family:monospace;
+    font-size:24px;
+    text-transform: uppercase;
+    padding-top:15px;
+}
+.C 
+{
+    width:250px;
+    height:200px;
+    background-color:red;
+    color:white;
+    text-align:center;
+    border-radius:15px;
+    border:3px solid black;
+    font-family:monospace;
+    font-size:24px;
+    text-transform: uppercase;
+    padding-top:15px;
+}
+.D
+{
+    width:250px;
+    height:200px;
+    background-color: blueviolet;
+    color:white;
+    text-align:center;
+    border-radius:15px;
+    border:3px solid black;
+    font-family:monospace;
+    font-size:24px;
+    text-transform: uppercase;
+    padding-top:15px;
+}
+.E
+{
+    width:250px;
+    height:200px;
+    background-color:chocolate;
+    color:white;
+    text-align:center;
+    border-radius:15px;
+    border:3px solid black;
+    font-family:monospace;
+    font-size:24px;
+    text-transform: uppercase;
+    padding-top:15px;
+}
+
+
+Media Query:
+=========
+Media Query is CSS3 new approach.The main objective of Media Query is  to develop
+responsive user inerfaces.
+
+
+index1.html:
+========
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS & CSS3</title>
+    <link rel="stylesheet" href="demo1.css">
+</head>
+<body>
+    <hr>
+    <h1>Welcome to Media_Query</h1>
+    <hr>
+   
+    
+</body>
+</html>
+
+index1.css:
+=======
+body 
+{
+    background-color: black;
+    color:white;
+    text-align:center;
+    font-family:monospace;
+    font-size:18px;
+}
+@media screen and (min-width:480px)
+{
+    body 
+    {
+        background-color: brown;
+        color:black;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size:20px;
+
+    }
+}
+
+
+index1.html:
+=======
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS & CSS3</title>
+    <link rel="stylesheet" href="demo1.css">
+</head>
+<body>
+    <hr>
+    <h1>Welcome to Media_Query</h1>
+    <hr>
+   
+    
+</body>
+</html>
+
+index1.css:
+=======
+body 
+{
+    background-color: black;
+    color:white;
+    text-align:center;
+    font-family:monospace;
+    font-size:18px;
+}
+@media screen and (min-width:480px)
+{
+    body 
+    {
+        background-color: brown;
+        color:black;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size:20px;
+
+    }
+}
+@media screen and (min-width:780px)
+{
+    body 
+    {
+        background-color:green;
+        color:black;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size:20px;
+
+    }
+}
+
+
+Why JavaScript?
+=========
+
+
+JavaScript:
+======
+->JavaScript is a client side scripting language.
+
+->Using JavaScript we can develop intertactive or dynamic web applications
+
+
+
+
+
